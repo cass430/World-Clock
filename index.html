@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>World Clock - Cassidy Perry</title>
     <link rel="stylesheet" href="src/main.css" />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.33/moment-timezone.min.js"></script>
+     <script src="https://momentjs.com/downloads/moment.min.js"></script>
+<script src="https://momentjs.com/downloads/moment-timezone-with-data.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -14,13 +18,15 @@
 
       <select>
         <option selected>Select a city..</option>
+        <option>My location</option>
         <option>Vancouver</option>
-        <option>Toronto</option>
+        <option>New York</option>
         <option>London</option>
         <option>Tokyo</option>
+        <option>All Cities</option>
       </select>
 
-      <div class="city">
+      <div class="city" id="vancouver">
         <div>
           <h2>Vancouver 🇨🇦</h2>
           <div class="date">January 1st, 2024</div>
@@ -29,7 +35,7 @@
         <div class="time">12:51 <small>AM</small></div>
       </div>
 
-      <div class="city">
+      <div class="city" id="new-york">
         <div>
           <h2>New York 🇺🇸</h2>
           <div class="date">January 1st, 2024</div>
@@ -38,7 +44,7 @@
         <div class="time">12:51 <small>AM</small></div>
       </div>
 
-      <div class="city">
+      <div class="city" id="london">
         <div>
           <h2>London 🇬🇧</h2>
           <div class="date">January 1st, 2024</div>
@@ -47,7 +53,7 @@
         <div class="time">12:51 <small>AM</small></div>
       </div>
 
-      <div class="city">
+      <div class="city" id="tokyo">
         <div>
           <h2>Tokyo 🇯🇵</h2>
           <div class="date">January 1st, 2024</div>
@@ -63,5 +69,7 @@
         </a>
       </footer>
     </div>
-  </body>
+    <script src="src/main.js"></script>
+  
+  
 </html>
