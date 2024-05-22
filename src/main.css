@@ -1,10 +1,70 @@
+body {
+  background-color: whitesmoke;
+  font-family: sans-serif;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
 header {
-  background-image: url("../images/World-Landmarks.jpg");
+  background-image: url("../images/image01.png");
   background-size: cover;
   padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 25px;
 }
 
 h1 {
   color: #ffffff;
   font-size: 60px;
+  text-align: center;
+}
+
+select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: whitesmoke;
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  padding: 20px 0px;
+}
+
+.city:last-child {
+  border: none;
+}
+
+h2 {
+  margin: 12px 0 6px;
+}
+
+.date {
+  opacity: 0.7;
+}
+
+.time {
+  margin-top: 16px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.time small {
+  font-size: 15px;
+}
+
+footer {
+  margin-top: 26px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
 }
