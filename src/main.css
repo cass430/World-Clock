@@ -70,3 +70,27 @@ footer {
   text-align: center;
   color: rgba(0, 0, 0, 0.8);
 }
+
+button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 18px;
+  padding: 8px 15px;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: cadetblue;
+}
+
+footer a {
+  color: cadetblue;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
