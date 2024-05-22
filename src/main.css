@@ -39,6 +39,8 @@ select {
   justify-content: space-between;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
   padding: 20px 0px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .city:last-child {
