@@ -16,16 +16,16 @@
         <h1>World Clock</h1>
       </header>
 
-      <select>
+      <select id="select-city">
         <option selected>Select a city..</option>
-        <option>My location</option>
-        <option>Vancouver</option>
-        <option>New York</option>
-        <option>London</option>
-        <option>Tokyo</option>
+        <option value="">My location</option>
+        <option value="America/Vancouver">Vancouver</option>
+        <option value="America/New_York">New York</option>
+        <option value="Europe/London">London</option>
+        <option value="Asia/Tokyo">Tokyo</option>
         <option>All Cities</option>
       </select>
-
+<div id="cities">
       <div class="city" id="vancouver">
         <div>
           <h2>Vancouver 🇨🇦</h2>
@@ -61,7 +61,7 @@
 
         <div class="time">12:51 <small>AM</small></div>
       </div>
-
+</div>
       <footer>
         This project was codded by <strong> Cassidy Perry </strong> is
         <a href="https://github.com/cass430/World-Clock">
